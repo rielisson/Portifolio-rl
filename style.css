@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto condesend", sans-serif;
+}
+/*inico do navbar */
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    border-bottom: 1px solid rgb(0, 255, 89);
+
+}
+.navbar-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.navbar-titulo {
+    color: #fff;
+    padding: 15px;
+    padding-top: 35px;
+}
+.navbar-titulo:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(19, 201, 83);
+}
+.navbar-sinais {
+    color: rgb(19, 201, 83);
+}
+.navbar-lista {
+    color: #fff;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    margin-left: auto;
+    font-size: 1.3em;
+}
+.navbar-lista li {
+    padding: 40px;
+}
+.navbar-lista  li:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(19, 201, 83);
+    
+}
+/* fim do navbar */
+.hero-section {
+    width: 100%;
+    height: 690px;
+    background-color: #000;
+}
+.hero-titulo {
+    color: #fff;
+}
