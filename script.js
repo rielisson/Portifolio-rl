@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
-            console.log(entry);
             if ( entry.isIntersecting) {
                 skillsItems.forEach((item, index) => {
                     item.style.animationDelay = `${index * 0.1}s`;
